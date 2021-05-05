@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* answerとの相違点や間違いを記載 */
+
+.head {
+  width: 100%;
+  height: 50px;
+  background-color: red;
+}
+/* header */
+
+.main-visual {
+  width: 100%;
+  height: 500px;
+  background-color: orange;
+}
+
+.main {
+  width: 960px;
+  height: 1400px;
+  background-color: green;
+  /* 背景色いらない */
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  /* 記載なし */
+}
+
+.main1 {
+  width: 230px;
+  height: 1400px;
+  background-color: palegreen;
+}
+/* sidebar-left */
+
+.main2 {
+  width: 500px;
+  height: 1400px;
+  background-color: limegreen;
+}
+/* blog */
+
+.main3 {
+  width: 230px;
+  height: 1400px;
+  background-color: palegreen;
+}
+/* sidebar-right */
+
+.footer {
+  width: 100%;
+  height: 100px;
+  background-color: blue;
+}

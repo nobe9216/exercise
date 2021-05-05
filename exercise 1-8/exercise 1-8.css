@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main-visual {
+  width: 960px;
+  margin: 50px auto;
+}
+
+.odd-list {
+  width: 960px;
+  background-color: rgb(238, 238, 238);
+}
+
+.list-text {
+  padding: 20px;
+}
+
+.main {
+  width: 960px;
+  margin: 0 auto 50px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box {
+  width: 30%;
+  height: 200px;
+}
+
+.orange-box {
+  background-color: orange;
+}
+
+.yellow-box {
+  background-color: yellow;
+}
+
+.vertical-center {
+  margin: 0 5%;
+}
+
+.beside-center {
+  margin: 40px 0;
+}
+
+.center {
+  margin: 40px 5%;
+}
